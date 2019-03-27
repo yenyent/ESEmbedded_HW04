@@ -40,8 +40,14 @@ This is the hw04 sample. Please follow the steps below.
 
 --------------------
 
-- [x] **If you volunteer to give the presentation (demo) next week, check this.**
+- [ ] **If you volunteer to give the presentation (demo) next week, check this.**
 
 --------------------
 
-Take your note here if you want. (Optional)
+1.查閱Discovery kit with STM32F407VG MCU裡關於Push buttons的相關說明,其中User button為PA0。 
+
+2.使用RCC所對應的bit
+
+3.設定MODER、OTYPER、OSPEEDR、PUPD
+
+4.利用GPIOx_IDR 讀取BUTTON(PA0)的狀態
